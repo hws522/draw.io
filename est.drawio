@@ -1,1 +1,275 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T00:26:13.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="87IOtNMfb_vNhenCQ_8E" type="github"><diagram id="sK26-lMWx4PBYWRoezfd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-25T02:09:48.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="TOqMDFCHh5je58_qxNK-" version="20.5.1" type="github">
+  <diagram id="sK26-lMWx4PBYWRoezfd" name="페이지-1">
+    <mxGraphModel dx="2844" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ACLKu946gdU7N73HTwmB-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-2" target="ACLKu946gdU7N73HTwmB-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-2" value="GPS 대시보드 페이지" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="641" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-3" target="ACLKu946gdU7N73HTwmB-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="550" />
+              <mxPoint x="901" y="550" />
+              <mxPoint x="901" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-3" target="ACLKu946gdU7N73HTwmB-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="550" />
+              <mxPoint x="901" y="550" />
+              <mxPoint x="901" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-3" value="실시간 GPS 페이지" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="641" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-4" target="ACLKu946gdU7N73HTwmB-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-4" value="운행 이력 페이지" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="641" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-5" target="ACLKu946gdU7N73HTwmB-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-5" value="차량 상세 정보 페이지" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="641" y="1298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-17" target="ACLKu946gdU7N73HTwmB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-10" value="[우측 상단 카드]&lt;br&gt;선택한 차량의&amp;nbsp;&lt;br&gt;현재 위치 확인" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-21" target="ACLKu946gdU7N73HTwmB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-12" target="ACLKu946gdU7N73HTwmB-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1436" y="685" />
+              <mxPoint x="1436" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-12" value="[우측 하단 카드]&lt;br&gt;선택한 차량의&amp;nbsp;&lt;br&gt;정보, 상태&amp;nbsp;확인" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-14" target="ACLKu946gdU7N73HTwmB-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-14" value="좌측 트리에서 원하는 차량 선택&lt;br&gt;(기본값: LOT0000002, 검색창 닫힘)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="801" y="530" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-15" value="아이콘 색상이 바뀌며 차량 번호 표기" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1596" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-17" value="아이콘 클릭" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1466" y="415" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-10" target="ACLKu946gdU7N73HTwmB-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1426" y="430" as="sourcePoint" />
+            <mxPoint x="1596" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-19" value="아이콘 색상이 바뀌며 차량 번호 표기" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1596" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-21" value="체크박스 클릭" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1456" y="655" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-12" target="ACLKu946gdU7N73HTwmB-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1426" y="670" as="sourcePoint" />
+            <mxPoint x="1596" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1446" y="670" />
+              <mxPoint x="1446" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-30" value="차량 선택&lt;br&gt;3대 이상" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1466" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-34" value="카드 가장자리 클릭 시&lt;br&gt;옆으로 이동 되며 다음 차량 확인 가능" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1676" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-35" target="ACLKu946gdU7N73HTwmB-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1536" y="830" as="sourcePoint" />
+            <mxPoint x="1586" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-35" value="YES" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1596" y="745" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-30" target="ACLKu946gdU7N73HTwmB-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1546" y="760" as="sourcePoint" />
+            <mxPoint x="1696" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1566" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-40" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-43" target="ACLKu946gdU7N73HTwmB-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1536" y="830" as="sourcePoint" />
+            <mxPoint x="1506" y="860" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-42" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="815" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-43" value="NO" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1491" y="820" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-30" target="ACLKu946gdU7N73HTwmB-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1506" y="800" as="sourcePoint" />
+            <mxPoint x="1506" y="860" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-46" target="ACLKu946gdU7N73HTwmB-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-75" target="ACLKu946gdU7N73HTwmB-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-46" value="좌측 검색창에서 원하는 차량, 시간 선택&lt;br&gt;(기본값: LOT0000002, 검색창 닫힘)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="801" y="970" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-51" target="ACLKu946gdU7N73HTwmB-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-51" value="[좌측 카드]&lt;br&gt;선택한 차량의 현재까지&lt;br&gt;운행 이력 확인" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="960" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-55" value="이력 클릭&lt;br&gt;유무" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1321" y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-56" target="ACLKu946gdU7N73HTwmB-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-56" value="YES" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="975" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1421" y="1088" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-57" value="NO" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1346" y="1073" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-58" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-55" target="ACLKu946gdU7N73HTwmB-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1441" y="943" as="sourcePoint" />
+            <mxPoint x="1491" y="893" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-55" target="ACLKu946gdU7N73HTwmB-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1441" y="943" as="sourcePoint" />
+            <mxPoint x="1491" y="893" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-66" value="[우측 카드]&lt;br&gt;클릭한 이력의 경로와&lt;br&gt;이력의 시간동안의&amp;nbsp;&lt;br&gt;전류, 전압, 온도, 습도&lt;br&gt;차트 확인 가능" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1541" y="950" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-73" target="ACLKu946gdU7N73HTwmB-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-73" value="차량(LOT) 설정 or&lt;br&gt;시간 설정 or&lt;br&gt;운전자 설정 or&lt;br&gt;차종 설정 or&lt;br&gt;차고지 설정" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="861" y="800" width="120" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-75" value="검색창 열기" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="876" y="910" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-46" target="ACLKu946gdU7N73HTwmB-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921" y="970" as="sourcePoint" />
+            <mxPoint x="921" y="886.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-78" value="정보 검색 후&lt;br&gt;검색 버튼 클릭" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="840" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=classic;endFill=1;startArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-95" target="ACLKu946gdU7N73HTwmB-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-79" value="좌측 검색창에서 원하는 차량선택&lt;br&gt;(기본값: LOT0000002, 검색창 닫힘)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="801" y="1308" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-82" target="ACLKu946gdU7N73HTwmB-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-82" value="차량(LOT) 설정 or&lt;br&gt;운전자 설정 or&lt;br&gt;차종 설정 or&lt;br&gt;차고지 설정" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-83" target="ACLKu946gdU7N73HTwmB-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-83" value="검색창 열기" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1041" y="535" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-84" target="ACLKu946gdU7N73HTwmB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-84" target="ACLKu946gdU7N73HTwmB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-84" value="정보 검색 후&lt;br&gt;검색 버튼 클릭" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1321" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-91" value="등록된 차량들의 정보 확인 가능&lt;br&gt;(통신상태, 운행여부, 현재위치)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="841" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-98" target="ACLKu946gdU7N73HTwmB-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-97" target="ACLKu946gdU7N73HTwmB-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-97" value="차량(LOT) 설정 or&lt;br&gt;운전자 설정 or&lt;br&gt;차종 설정 or&lt;br&gt;차고지 설정" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="831" y="1158" width="120" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-98" value="검색창 열기" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="846" y="1248" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=1;" edge="1" parent="1" target="ACLKu946gdU7N73HTwmB-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="891" y="1308" as="sourcePoint" />
+            <mxPoint x="891" y="1224.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-100" value="정보 검색 후&lt;br&gt;검색 버튼 클릭" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="1178" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-101" value="[우측 카드]&lt;br&gt;선택한 차량의&lt;br&gt;세부정보 테이블&lt;br&gt;현재위치&lt;br&gt;실시간 전류,전압, 온도, 습도&lt;br&gt;확인 가능" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1331" y="1278" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-95" value="[좌측 카드]&lt;br&gt;선택한 차량이 속한 그룹의 &lt;br&gt;트리 확인&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1298" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACLKu946gdU7N73HTwmB-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="ACLKu946gdU7N73HTwmB-79" target="ACLKu946gdU7N73HTwmB-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011" y="1328" as="sourcePoint" />
+            <mxPoint x="1331" y="1328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
