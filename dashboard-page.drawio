@@ -1,64 +1,106 @@
 <mxfile host="65bd71144e">
     <diagram id="i2lalReJyEeCFGPOjxj4" name="페이지-1">
-        <mxGraphModel dx="2520" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+        <mxGraphModel dx="1155" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="64" value="의사결정&lt;br&gt;비교 및 판단" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="64" value="의사결정&lt;br&gt;비교 및 판단" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="35" y="1050" width="100" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="계정의 token 을 기반으로 권한에 맞는 data 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="755" y="110" width="145" height="60" as="geometry"/>
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="75" target="93">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="827.5" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="828" y="215"/>
+                            <mxPoint x="428" y="215"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="79" value="slider 형식의 공지사항 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="355" y="300" width="145" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="80" value="연결된 설비, 가동중인 설비, 현재 확인되지 않은 알람의 갯수를 알 수 있는 카드 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="515" y="300" width="145" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="82" value="전력 소비량을 알 수 있는 apexchart - area&lt;br&gt;출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="675" y="300" width="145" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" value="최근 알람을 알 수 있는 알람 테이블" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="1155" y="300" width="145" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" value="공지사항, 유지보수, 자유게시판, 자주묻는 질문이 탭 형식으로 구현된 테이블" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="995" y="300" width="145" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="달력과 월별 일정의 유무를 알 수 있는 달력과 하단의 간략한 일정을 볼 수 있는 테이블&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="835" y="300" width="145" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="89" target="75">
+                <mxCell id="112" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="75" target="94">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="&lt;font color=&quot;#ffffff&quot;&gt;시작 -&amp;nbsp;Dashboard Page&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="75" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="75" target="96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="75" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="75" target="98">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="계정의 token 을 기반으로 권한에 맞는 data 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="755" y="110" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="slider 형식의 공지사항 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="359" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="연결된 설비, 가동중인 설비, 현재 확인되지 않은 알람의 갯수를 알 수 있는 카드 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="515" y="359" width="145" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="전력 소비량을 알 수 있는 apexchart - area&lt;br&gt;출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="675" y="359" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="최근 알람을 알 수 있는 알람 테이블" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="1155" y="359" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="공지사항, 유지보수, 자유게시판, 자주묻는 질문이 탭 형식으로 구현된 테이블" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="995" y="359" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="달력과 월별 일정의 유무를 알 수 있는 달력과 하단의 간략한 일정을 볼 수 있는 테이블&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="835" y="359" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="89" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="&lt;font color=&quot;#ffffff&quot;&gt;시작 -&amp;nbsp;Dashboard Page&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
                     <mxGeometry x="755" y="30" width="146" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="공지사항 리스트 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="355" y="200" width="145" height="60" as="geometry"/>
+                <mxCell id="105" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="93" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="socket 호출&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%20api%20%ED%98%B8%EC%B6%9C%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23F45B69%3BstrokeColor%3D%23028090%3BfontColor%3D%23E4FDE1%3Brounded%3D1%3Bglass%3D0%3BstrokeWidth%3D1%3Bshadow%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22210%22%20width%3D%22145%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="515" y="200" width="145" height="60" as="geometry"/>
+                <mxCell id="93" value="공지사항 리스트 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="259" width="145" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="전력 소비량 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="675" y="200" width="145" height="60" as="geometry"/>
+                <mxCell id="106" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="94" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="월별 일정 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="835" y="200" width="145" height="60" as="geometry"/>
+                <mxCell id="94" value="socket 호출&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%20api%20%ED%98%B8%EC%B6%9C%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23F45B69%3BstrokeColor%3D%23028090%3BfontColor%3D%23E4FDE1%3Brounded%3D1%3Bglass%3D0%3BstrokeWidth%3D1%3Bshadow%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22210%22%20width%3D%22145%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="515" y="259" width="145" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="종류별 게시판 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="995" y="200" width="145" height="60" as="geometry"/>
+                <mxCell id="107" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="95" target="82">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="알람 리스트 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="1155" y="200" width="145" height="60" as="geometry"/>
+                <mxCell id="95" value="전력 소비량 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="675" y="259" width="145" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="표시&lt;br&gt;화면으로 결과 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="108" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="96" target="85">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="월별 일정 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="835" y="259" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="97" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="종류별 게시판 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="995" y="259" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="98" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="알람 리스트 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="1155" y="259" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="표시&lt;br&gt;화면으로 결과 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="35" y="960" width="145" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="처리&lt;br&gt;작업 명시" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="100" value="처리&lt;br&gt;작업 명시" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="35" y="880" width="145" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="&lt;font color=&quot;#ffffff&quot;&gt;시작&lt;br&gt;끝&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                <mxCell id="101" value="&lt;font color=&quot;#ffffff&quot;&gt;시작&lt;br&gt;끝&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
                     <mxGeometry x="34" y="810" width="146" height="50" as="geometry"/>
                 </mxCell>
             </root>
