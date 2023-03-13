@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Xwy4MLogNIPWX0uJKcdW" name="페이지-1">
-        <mxGraphModel dx="1444" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+        <mxGraphModel dx="2432" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -48,12 +48,6 @@
                 <mxCell id="117" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="827" y="380" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" value="&lt;span style=&quot;color: rgb(228, 253, 225);&quot;&gt;socket 에서 받아온 data 를 테이블화 시켜 출력&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-                    <mxGeometry x="1470" y="541" width="160" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="120" value="&lt;span style=&quot;color: rgb(228, 253, 225);&quot;&gt;tree data 에서 가져온 해당 트리별 data 내부 property 들을 이용하여 background url 과 icon 활성화&amp;nbsp;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-                    <mxGeometry x="1460" y="669" width="160" height="110" as="geometry"/>
-                </mxCell>
                 <mxCell id="124" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="122" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="410" y="520" as="targetPoint"/>
@@ -63,15 +57,16 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="122" target="119" edge="1">
+                <mxCell id="126" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="122" target="233" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="828" y="490"/>
                             <mxPoint x="1550" y="490"/>
                         </Array>
+                        <mxPoint x="1550" y="563" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="217" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="122">
+                <mxCell id="217" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="122" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1080" y="530" as="targetPoint"/>
                         <Array as="points">
@@ -191,7 +186,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="163" value="Card Style 에 적용되는 센서값들을 지정하고 추가, 삭제 할 수 있는 Modal 활성화." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-                    <mxGeometry x="470" y="693" width="140" height="89" as="geometry"/>
+                    <mxGeometry x="470" y="693" width="140" height="97" as="geometry"/>
                 </mxCell>
                 <mxCell id="165" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="540" y="653" width="50" height="30" as="geometry"/>
@@ -218,33 +213,33 @@
                 <mxCell id="172" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="540" y="893" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="183" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="186" target="192">
+                <mxCell id="183" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="186" target="192" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;elbow=vertical;startArrow=classic;startFill=1;" edge="1" parent="1" source="186">
+                <mxCell id="184" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;elbow=vertical;startArrow=classic;startFill=1;" parent="1" source="186" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1080" y="523" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="185" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.504;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="186" target="190">
+                <mxCell id="185" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.504;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" parent="1" source="186" target="190" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="설비선택&lt;br&gt;Select Tree&lt;br&gt;선택 여부" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="186" value="설비선택&lt;br&gt;Select Tree&lt;br&gt;선택 여부" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="930" y="567" width="90" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="187" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="187" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="887" y="581" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="188" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="975" y="655" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="190" target="195">
+                <mxCell id="189" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="190" target="195" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" value="&lt;span style=&quot;color: rgb(228, 253, 225);&quot;&gt;tree data 에서 가져온 해당 트리별 data 내부 property 들을 이용하여 background url 과 icon 활성화&amp;nbsp;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="190" value="&lt;span style=&quot;color: rgb(228, 253, 225);&quot;&gt;tree data 에서 가져온 해당 트리별 data 내부 property 들을 이용하여 background url 과 icon 활성화&amp;nbsp;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="878" y="697" width="193" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="192" target="195">
+                <mxCell id="191" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="192" target="195" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="780" y="834"/>
@@ -252,36 +247,33 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="192" value="&lt;font color=&quot;#e4fde1&quot;&gt;최상위 트리에 해당하는 background url 과 하위 자식 노드에 해당하는 icon 활성화&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="192" value="&lt;font color=&quot;#e4fde1&quot;&gt;최상위 트리에 해당하는 background url 과 하위 자식 노드에 해당하는 icon 활성화&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="700" y="557" width="160" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="195">
+                <mxCell id="193" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=oval;endFill=1;" parent="1" source="195" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="870" y="880" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="194" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="195" target="199">
+                <mxCell id="194" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" parent="1" source="195" target="199" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="195" value="Icon 클릭&lt;br&gt;or&lt;br&gt;좌측 하위 노드 목록 클릭" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="929.5" y="835" width="90" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="196" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="196" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="889" y="847" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="197" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="197" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="975" y="925" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="198" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="199" target="200">
+                <mxCell id="223" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="199" target="219">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="199" value="" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#C34651;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="199" value="Select Tree 에서 해당 설비를 선택했을 때와 동일하게 api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#C34651;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="902" y="955" width="145" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="200" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="880" y="1043" width="190" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="201" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="204">
+                <mxCell id="201" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" parent="1" source="204" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1105" y="612" as="targetPoint"/>
                         <Array as="points">
@@ -290,55 +282,103 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="202" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0.501;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="204">
+                <mxCell id="202" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0.501;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="204" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1210.1399999999999" y="694.597" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="203" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;elbow=vertical;startArrow=classic;startFill=1;" edge="1" parent="1" source="204">
+                <mxCell id="203" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;elbow=vertical;startArrow=classic;startFill=1;" parent="1" source="204" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1080" y="523" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="204" value="설정 열기&lt;br&gt;버튼 클릭" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                <mxCell id="204" value="설정 열기&lt;br&gt;버튼 클릭" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="1165" y="567" width="90" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="205" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="205" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1114.5" y="579" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="206" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" target="211">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1210" y="786" as="sourcePoint"/>
-                    </mxGeometry>
+                <mxCell id="230" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="207" target="211">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="207" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="1150" y="694" width="140" height="89" as="geometry"/>
+                <mxCell id="207" value="background, icon 을 설정할 수 있는 Drawer 활성화" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="1150" y="694" width="140" height="66" as="geometry"/>
                 </mxCell>
-                <mxCell id="208" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="208" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="657" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="209" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="211">
+                <mxCell id="209" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" parent="1" source="211" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1115" y="857" as="targetPoint"/>
+                        <mxPoint x="1125" y="836" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="210" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="211">
+                <mxCell id="210" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="211" edge="1" target="232">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1210" y="934" as="targetPoint"/>
+                        <mxPoint x="1220" y="915" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="211" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="1170" y="817" width="80" height="80" as="geometry"/>
+                <mxCell id="211" value="저장 버튼&lt;br&gt;클릭 여부" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="796" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="212" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="1125" y="827" width="40" height="30" as="geometry"/>
+                <mxCell id="212" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="806" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="213" value="" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#C34651;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-                    <mxGeometry x="1150" y="937" width="120" height="60" as="geometry"/>
+                <mxCell id="214" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="876" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="214" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="1210" y="897" width="50" height="30" as="geometry"/>
+                <mxCell id="221" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="219" target="186">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1090" y="1084"/>
+                            <mxPoint x="1090" y="612"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="226" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="219" target="224">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="선택한 노드의&lt;br&gt;최하위 노드&lt;br&gt;여부" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="1039" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1022.5" y="1050" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="224" target="228">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="선택한 최하위 노드를 parameter 로 motor detail api 호출" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#C34651;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="902" y="1169" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="975" y="1129" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="&lt;font color=&quot;#e4fde1&quot;&gt;선택한 최하위 노드에 해당하는 디바이스의 실시간 가동 상태, 알람 상태, 부하율, 전류, 전압 그리고 디바이스에 등록된 센서값 출력.&lt;br&gt;실시간 전류, 전압 차트 출력.&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="878" y="1263" width="193" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="수정된 내용에 대하여 모두 적용하고 Icon, Background 재렌더링" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#C34651;fontColor=#E4FDE1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="913" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="233" target="234">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="233" target="239">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="설비선택&lt;br&gt;Select Tree&lt;br&gt;선택 여부" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="1505" y="561" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="&lt;span style=&quot;color: rgb(228, 253, 225);&quot;&gt;전체설비를 socket 에서 받아온 data 와 매칭시켜 테이블형식으로 출력.&lt;br&gt;한 페이지당 7개의 리스트로 페이지네이션.&lt;br&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="552" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1465" y="575" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="&lt;span style=&quot;color: rgb(228, 253, 225);&quot;&gt;선택된 설비들을 socket 에서 받아온 data 와 매칭시켜테이블형식으로 출력.&lt;br&gt;한 페이지당 7개의 리스트로 페이지네이션.&lt;br&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="1475" y="694" width="150" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1550" y="651" width="50" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
